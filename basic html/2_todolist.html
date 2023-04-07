@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO</title>
+    <input id="todo"><button id="btn">todo</button>
+</head>
+<body>
+    <ul id="add">
+        <li>HTML</li>
+    </ul>
+    <p id ='para'>hello </p>
+    <script>
+        //ACCESS 
+        let todoBox=document.getElementById('todo');
+        let todobtn=document.getElementById('btn');
+        let listadd=document.getElementById('add');
+         todobtn.onclick=function(){
+            //ACCESS VALUE FROM INPUT 
+            let todovalue=todoBox.value;
+            // CREATE LIST
+            let createlist= document.createElement('li')
+            createlist.innerText=todovalue;
+            //UPDATES NEW ITEM INTO THE LIST INSTEAD RECREATE THE COMPLETE LIST SO APPPENDCHILD IS USEFUL
+            listadd.appendChild(createlist)
+         }
+       
+    </script>
+</body>
+</html>

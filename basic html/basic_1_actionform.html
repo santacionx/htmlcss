@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>action form</title>
+</head>
+<body>
+    <p>client wants to send data to server using http request using get and post 
+        response we get 
+        <br><br>
+        which type request is specified in method="" filed
+        <br> <br>
+        > get request no need to change on server : not secure 
+        <br><br>
+        > post request updates del changes the content in server
+
+
+    </p>
+        <form action="" method="post">
+            <div>
+                <p>Gender</p>
+            <!-- name =value so must in radio -->
+                <input type="radio" name="gender" value="male" checked>MALE <br>
+                <input type="radio" name="gender" value="female">FEMALE <br>
+                <input type="radio" name="gender" value="other">OTHER <br>
+            </div>
+            <div>
+                <input type="checkbox" name="course" value="c++">c++
+                <input type="checkbox" name="course" value="c++">c
+                <input type="checkbox" name="course" value="c++">js
+            </div>
+            <div>
+                <label for="months"></label>
+                <select name="month" id="months" multiple>
+                    <option>jan</option>
+                    <option selected>feb</option>
+                    <option>mar</option>
+                    <option>apr</option>
+                    <option>may</option>
+                </select>
+            </div>
+            <div>
+                <label for="exp">share you views</label><br>
+                <textarea name="comments" id="exp" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="button" name="submit" id="" value="button">
+            </div>
+            <div>
+                <button type="submit">submit</button>
+                <button type="button"><img src="./media/image.png" alt="" width="100">button</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+        
+    </body>
+
+</html>

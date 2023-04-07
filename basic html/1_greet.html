@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>greet</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <input type="text" id="name" value=" "><button id="btn">Greet</button>
+    <script>
+        // Get the element with the ID "myInput"
+        let nameBox = document.getElementById('name');
+        let greetbtn = document.getElementById('btn');
+        greetbtn.onclick = function () {
+            // Get the value of the element
+            let name = nameBox.value;
+            // Alert the value
+            window.alert("hello "+ name);
+
+        }
+    </script>
+     <a href="basic_1_links.html#newsession">Go to  section A </a>
+</body>
+
+</html>
