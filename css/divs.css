@@ -1,0 +1,15 @@
+html{
+    font-size: 10px;
+}
+#dad{
+    height: 4rem;
+    /* 100vh; */
+    width: 4rem;
+    /* 100vw; */
+    background-color: #645CBB;
+}
+#mom{
+    height: 50%;
+    width: 50%;
+    background-color:#DFFFD8;
+}

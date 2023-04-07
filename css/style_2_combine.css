@@ -1,0 +1,30 @@
+li{
+    font-weight: bold;
+}
+ul >li {
+    color: blue;
+}
+
+ol >li {
+    color: red;
+}
+
+ol li li {
+    font-style: italic;
+}
+/* immediate child */
+ol ~ ul{
+    background-color: aquamarine;
+}
+
+ol + li {
+    color: pink;
+}
+a span {
+    display: none;
+  }
+  
+  a:hover span {
+    display: inline;
+  }
+  

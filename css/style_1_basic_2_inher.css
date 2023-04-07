@@ -1,0 +1,18 @@
+/* 
+
+order is universal * < class < div < id's 
+
+*/
+
+*{
+    background-color: powderblue;
+}
+.cl1{
+    background-color: grey;
+}
+div{
+    background-color: burlywood;
+}
+#id1{
+    background-color: rgb(212, 11, 175);
+}

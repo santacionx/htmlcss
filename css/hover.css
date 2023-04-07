@@ -1,0 +1,10 @@
+ul ul {
+    display: none;
+}
+li:hover{
+    color: blue;
+}
+li:hover > ul{
+    display: block;
+    color:red;
+}

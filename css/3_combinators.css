@@ -1,0 +1,14 @@
+h2+p{
+    font-size: 20pt;
+    color: teal;
+}
+/* h2 sibling */
+h2 ~ p{
+    color: red;
+}
+section > p{
+    background-color: aqua;
+}
+section p{
+    background-color: lightsalmon;
+}

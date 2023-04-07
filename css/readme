@@ -1,0 +1,57 @@
+
+
+group selector: it modies content inside a , b, c
+    a,b,c{}
+
+ nesting 
+li h4{ }
+    
+specificity of selectors ITC
+ inline style  > id > class >type selector
+ pseudo selector
+ :hover :active....
+
+add color:
+    name
+    hex
+    rgb
+    rgba
+    hsl
+    hsla
+css units 
+    absolute:
+        cm, in, px
+        1px=1/96 inch
+    relative:
+        %percentage 
+        vw,vh
+    rem: font size of html root element (relative to root)
+        root elem: html 
+        1 rem=16pt: font size of html
+    em: relative to parent
+
+magins: outside the element space btw other elements
+ horizontal margins : if add up
+ vertical margin : collapse
+ margin: auto; equally on left & right to screen
+padding : inner element space btw content and border 
+
+display property:
+inline: you cannot set heigth & width so div if inline 0x0 you cant see 
+block
+inline-block : allows to set inline and alter height width margins becoz of insline btw 2 blocks it adds spcae btw them 
+checkout 
+    inline-block.html 
+
+elem is invisible but web page not affected by using property [visiblity: hidden]
+box-model:
+    content box model : border+margin+content space
+    border box model : only content space
+    to set box
+margin: doesnt count total width of web page
+min-width: ex:  size of min div 
+max-width: 
+
+content > box: overflow:hidden/scroll/auto;
+    overlow: visible to user
+    

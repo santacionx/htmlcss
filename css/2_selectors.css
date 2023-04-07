@@ -1,0 +1,23 @@
+div{
+    color: blue;
+}
+p{
+    color: blueviolet;
+}
+*{
+    font-style: italic;
+}
+.one1{
+    color: palevioletred;
+    font-size: 16pt;
+}
+#o{
+    background-color: yellow;
+}
+/* attribute selector */
+input[disabled]{
+    font-size: 12pt;
+}
+input[type="text"]{
+    font-size: 30pt;
+}

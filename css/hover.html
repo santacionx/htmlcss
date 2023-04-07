@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hover.css">
+    <style>
+    ul ul {
+        display: none;
+    }
+    li:hover{
+        color: blue;
+    }
+    li:hover > ul{
+        display: block;
+        color:red;
+    }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>one <ul>
+                <li>1.1 data</li>
+                <li>1.2 data
+                    <ul>
+                        <li>one 2 one</li>
+                        <li>one 2 two</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>two
+            <ul>
+                <li>two.one</li>
+                <li>two.two</li>
+            </ul>
+        <li>three</li>
+    </ul>
+
+
+</body>
+
+</html>

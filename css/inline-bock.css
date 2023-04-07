@@ -1,0 +1,21 @@
+#one{
+    height: 100px;
+    width: 100px;
+    background-color:#537FE7 ;
+    display: inline-block;
+    /* can set height width using inline block so blocks can be next to each other */
+    
+   
+    /* margin-bottom: 10px; */
+
+}
+#two{
+    height: 100px;
+    width: 100px;
+    background-color:#E90064 ;
+    display: inline-block;
+    /* there will be space btw 2 blcoks becoz inline default : has provide space btw 2 blocks 4pt
+    to remove use -ve margin */
+    margin-left:-4pt ;
+    /* margin-top: 10px;   collide */
+}
