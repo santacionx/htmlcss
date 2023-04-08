@@ -128,12 +128,23 @@ flex-shrink: used in childs
     dimension  child1 is 1 part/2 space allocated for div 1  
     dimension  child2 is 1/2 space allocated for div 2 
 
-flex-justify : main axis
+#flex-justify : main axis
 
     across the main axis the flex-justify works
         default main axis :
                 row  > ; row reverse  <
                 column v ; column ^
 
-justify-content : flex-start; flex-end; center; space-around; space-between; 
-flex-direction
+#justify-content : flex-start; flex-end; center; space-around; space-between;  (main axis)
+
+# align-items: (cross axis) flex-start; no change (1,2,3)
+     flex-end; (down the page 1,2,3)
+     center: 
+     strech: across cross axis set height:auto; use min-height and max-height
+     baseline : add margins to childs to see changes in div : align items across baseline
+     
+     
+
+wrt to cross axis 
+baseline, strech 
+  
