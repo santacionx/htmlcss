@@ -1,0 +1,42 @@
+/* #overflow-wrap:/ word wrap
+  overflow-wrap: break-word;
+
+#gradients : 
+min 2 color 
+
+background-image: linear-gradient( red, cyan 20% );
+cyan 20%: color: to start 
+0% start of 1st color 
+100% start of last color (mid :100%)
+to change the direction of gradient 
+
+background-image: linear-gradient( to top right, red, cyan 20% );
+in degree
+background-image: linear-gradient( 0deg,red, cyan 20% );
+
+
+background: repeating-linear-gradient(to top right, red, blue 10px); */
+
+/* pseudo classes : based on specific state 
+    at specific point it does some effect
+        :hover
+        :link
+        :active
+        :visited
+        :target
+
+        a:active{
+            color: red;
+        }
+        a:visited{
+            color: green;
+} */
+/* pseudo element ::
+style specific parts of element
+::first-letter
+::first-line
+::before
+    content:'first me';
+::after 
+  ::content:'laste me '   */
+  /* before and after pseudo recheck its tooo good  */
