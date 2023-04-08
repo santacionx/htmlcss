@@ -1,0 +1,42 @@
+divide page :
+1. header 
+2. main
+
+header tag
+   nav tag
+            undordered list : class="horizantal-list"
+
+                home, about, skills, experience, portifolio,contact
+
+            .horizantal-list : 
+                list-style:none  // to remove dots in undordered
+                padding-left:0px // to remove auto padding default
+                
+        
+            .horizantal-list li :
+                display:inline-block //all divs in one single line
+                margin: 0px 8px 8px 0px 
+
+            .horizantal-list li a:
+                color:white 
+                text-decoration: none 
+                transition:color 0.5s border-bottom:4s
+
+            .text-center: 
+                text-align:center
+
+            .horizantal-list li a:hover 
+                color:white 
+                border-bottom: 1px solid white
+            
+    adding social-icon and name 
+     <div : class "name-social-container">
+        <div class="text-center">
+            <h1 id="my-name">
+               Sanatcion
+            </h1>
+        </div>
+    </div>
+    
+
+    
