@@ -1,0 +1,139 @@
+flex: flexble easy to arrange the elements(horizantally and vertically) with respect to parent container 
+> just remember : To arrange elements use flex
+ 
+ display property
+
+    display: flex;
+
+flex direction: control the direction off childrens 
+  
+    row; default
+    column;
+    row-reverse;
+    column-reverse;
+
+To change the order of childs : to seet inside child set
+    order: 1 (last) remaining child : 0 default
+
+flex-wrap: all childs are adjusted inside container in single line default
+    
+    flex-wrap:nowrap;  default
+   
+    flex-wrap:wrap; //multiple lines and overflows
+    so to avoid overflow of childs set heigth:auto for row 
+    column  width: auto;
+
+    flex-wrap-reverse //reverse order childs are placed
+
+    WRAP : LEFT TO RIGHT default ->
+WRAP-REVERSE: RIGHT TO LEFT FOR flex-direction:column <-
+
+
+flex-direction: row;  SET heigth: auto;
+    default 1->2->3->4->5
+
+        WRAP: top to bottom  default 
+              # 1->2->3->4->5
+               if no flex-direction set  the below format
+                1->2
+                3->4
+                5
+        wrap-reverse: bottom to top
+             5<-4<-3<-2<-1
+         if no flex-direction set  the below format
+                5
+                3->4
+                1->2
+
+ flex-direction: row-reverse; SET heigth: auto;
+    default 5<-4<-3<-2<-1
+        WRAP: top to bottom
+
+             5<-4<-3<-2<-1 default SOLUTION IS DOWN 
+                      2<-1
+                      4<-3
+                         5
+         wrap-reverse: bottom to top
+
+                5<-4<-3<-2<-1
+                            5
+                         4<-3
+                         2<-1
+                
+flex-direction: column SET width:auto;
+                default
+                1
+                |
+                2
+                |
+                3
+                |
+                4
+                |
+                5
+             WRAP : LEFT TO RIGHT (default)
+             if no flex-direction set  the below format
+                    1 3 5
+                    | |
+                    2 4
+
+            WRAP-REVERSE: RIGHT TO LEFT
+                                    5
+                                    |
+                                    4
+                                    |
+                                    3
+                                    |
+                                    2
+                                    |
+                                    1
+            if no flex-direction set  the below format
+                    5 3 1 
+                      | |
+                      4 2
+
+flex-direction: column-reverse SET width:auto;
+            default: 
+            5
+            |
+            4
+            |
+            3
+            |
+            2
+            |
+            1
+
+# flex: arrange child wrt parent based on direction and if childs has to be placed witout compressing use wrap 
+
+flex-grow : used in childs 
+
+    child1{
+        flex-grow :4;
+    }
+    child2{
+        flex-grow :1;
+    }
+    dimension  child1 is 4 part/5 space allocated for div 1  
+    dimension  child2 is 1/5 space allocated for div 2 
+
+flex-shrink: used in childs 
+   
+    child1{
+        flex-shrink :1;
+    }
+    child2{
+        flex-shrink :1;
+    }
+    dimension  child1 is 1 part/2 space allocated for div 1  
+    dimension  child2 is 1/2 space allocated for div 2 
+
+flex-justify : main axis
+
+    across the main axis the flex-justify works
+        default main axis :
+                row  > ; row reverse  <
+                column v ; column ^
+
+justify-content : flex-start; flex-end; center; space-around; space-between; 
+flex-direction
